@@ -1,16 +1,11 @@
 import React from "react"
 import {
   FaGithubSquare,
-  FaTwitterSquare,
-  FaYoutubeSquare,
+  FaLinkedin,
+  FaCodepen,
 } from "react-icons/fa"
 
 export default [
-  {
-    id: Math.random(),
-    url: "#",
-    image: <FaYoutubeSquare className="youtube-icon" />,
-  },
   {
     id: Math.random(),
     url: "#",
@@ -19,6 +14,11 @@ export default [
   {
     id: Math.random(),
     url: "#",
-    image: <FaTwitterSquare className="twitter-icon" />,
+    image: <FaLinkedin className="linkedin-icon icon" />,
+  },
+  {
+    id: Math.random(),
+    url: "#",
+    image: <FaCodepen className="codepen-icon" />,
   },
 ]

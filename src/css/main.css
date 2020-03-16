@@ -77,6 +77,14 @@ a {
 .twitter-icon {
   color: #1dcaff;
 }
+.linkedin-icon {
+  color: #1dcaff;
+}
+
+.codepen-icon {
+  color: yellow;
+}
+
 .github-icon {
   color: var(--darkGrey);
 }

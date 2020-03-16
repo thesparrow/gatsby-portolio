@@ -1,12 +1,13 @@
 import React from "react"
-import logo from "../images/white-logo.svg"
+import logo from "../images/light-logo.svg"
 import styles from "../css/footer.module.css"
 import icons from "../constants/SocialLinks"
 const Footer = () => {
   return (
+    
     <footer className={styles.footer}>
       <div className={styles.logo}>
-        <img src={logo} alt="john smilga logo"></img>
+        <img src={logo} alt="anna shilova logo"></img>
       </div>
       <div className={styles.icons}>
         {icons.map(item => {
@@ -18,7 +19,7 @@ const Footer = () => {
         })}
       </div>
       <div className={styles.info}>
-        © {new Date().getFullYear()} John Smilga. All rights reserved. Built
+        © {new Date().getFullYear()} Anna Shilova. All rights reserved. Built
         with
         <a href="https://www.gatsbyjs.org/" className={styles.link}>
           Gatsby
