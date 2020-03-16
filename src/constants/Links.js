@@ -6,8 +6,8 @@ export default [
   },
   {
     id: Math.random(),
-    text: "courses",
-    url: "/courses",
+    text: "projects",
+    url: "/projects",
   },
   {
     id: Math.random(),
