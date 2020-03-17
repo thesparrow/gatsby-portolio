@@ -10,10 +10,7 @@ const contact = () => {
         <article className={styles.text}>
           <p>
             If you are looking to get ahold of me, you can send me an email at{" "}
-            <a href="#">johndoe@email.com</a>.
-          </p>
-          <p>
-            You can also reach me on Twitter at <a href="#">@john_doe</a>.
+            <a href="#">shilovanna@gmail.com</a>.
           </p>
         </article>
       </section>
