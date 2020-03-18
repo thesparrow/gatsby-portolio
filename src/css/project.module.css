@@ -41,3 +41,11 @@
   line-height: 1.5em;
   margin: 0;
 }
+
+
+@media screen and (max-width: 500px) {
+  .portfolio .imgRounded {
+    height: auto;
+  }
+  
+}

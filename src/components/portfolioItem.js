@@ -7,7 +7,7 @@ const PortfolioItem = ({ data }) => {
    var projectImage = data.img;
 
    return (
-      <Col lg="3" md="3" xs="6">
+      <Col lg="3" md="3" xs="12">
          <a href={data.url} target="_blank">
             <Image className={styles.imgRounded} src={projectImage} rounded />
          </a>
