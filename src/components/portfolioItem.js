@@ -4,7 +4,7 @@ import styles from '../css/project.module.css'
 
 
 const PortfolioItem = ({ data }) => {
-   var projectImage =  'images/' + data.img;
+   var projectImage = data.img;
 
    return (
       <Col lg="3" md="3" xs="6">

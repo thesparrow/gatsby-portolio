@@ -1,24 +1,31 @@
-export default [
+import taxeasy from "../images/tax.jpg"
+import boltDesign from "../images/boltdesign.jpg"
+import energy from "../images/energy.jpg"
+import adme from "../images/adme.jpg"
+import rebrnd from "../images/rebrnd.jpg"
+
+
+const pros = [
     {
       id: Math.random(),
       title: "Tax Easy",
       url: "https://taxeasy.us",
       description: "Tax Preparation Services",
-      img: "tax.jpg",
+      img: taxeasy,
     },
     {
       id: Math.random(),
       title: "BoltDesign Studio",
       url: "https://www.boltdesignstudio.com",
       description: "Bolt Design Studio",
-      img: "boltdesign.jpg",
+      img: boltDesign,
     },
     {
       id: Math.random(),
       title: "Energy Consult",
       url: "http://www.energyconsult.us/",
       description: "Energy Consulting",
-      img: "energy.jpg",
+      img: energy,
     
     },
     {
@@ -26,16 +33,17 @@ export default [
       title: "Adme.AI",
       url: "https://adme.ai/",
       description: "Adme.AI",
-      img: "adme.jpg",
+      img: adme,
     },
     {
       id: Math.random(),
       title: "Rebrndmusic",
       url: "https://rebrndmusic.com/",
       description: "Rebrnd Music Production",
-      img: "rebrnd.jpg",
+      img: rebrnd,
     }
   
 
-  ]
+  ];
   
+  export default pros
