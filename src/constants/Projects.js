@@ -1,5 +1,5 @@
 import taxeasy from "../images/tax.jpg"
-import boltDesign from "../images/boltdesign.jpg"
+import boltDesign from "../images/boltDesign.jpg"
 import energy from "../images/energy.jpg"
 import adme from "../images/adme.jpg"
 import rebrnd from "../images/rebrnd.jpg"
