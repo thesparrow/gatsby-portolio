@@ -11,7 +11,8 @@ const PortfolioItem = ({ data }) => {
          <a href={data.url} target="_blank">
             <Image className={styles.imgRounded} src={projectImage} rounded />
          </a>
-         <p>{data.description}</p>
+         <h3>{data.title}</h3>
+            <p>{data.description}</p>
       </Col>
    )
 }

@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import styles from "../css/project.module.css"
+import Title from "../components/Title"
 
 import data from "../constants/Projects"
 import PortfolioItem from "../components/portfolioItem"
@@ -15,7 +16,7 @@ const projects = () => {
       <section className={styles.portfolio}>
        
         <Container>
-        <h1> - Projects - </h1>
+        <Title title="projects"></Title>
         <Row>
         {
           data.map(item => {

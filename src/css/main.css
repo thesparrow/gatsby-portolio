@@ -6,12 +6,15 @@
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #afafaf;
+  --secondaryBlue: #1dcaff;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 0.3rem;
   --smallSpacing: 0.1rem;
   --fontSizeTitle: 1.2em;
+  --fontSizeHeader: .75em;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --boxShadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 * {
@@ -80,9 +83,8 @@ a {
   color: #1dcaff;
 }
 .linkedin-icon {
-  color: #1dcaff;
+  color: var(--secondaryBlue);
 }
-
 .codepen-icon {
   color: yellow;
 }
