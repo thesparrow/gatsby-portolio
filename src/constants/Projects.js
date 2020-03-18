@@ -3,7 +3,7 @@ import boltDesign from "../images/boltDesign.jpg"
 import energy from "../images/energy.jpg"
 import adme from "../images/adme.jpg"
 import rebrnd from "../images/rebrnd.jpg"
-
+import productionSociety from "../images/productionSociety.jpg"
 
 const pros = [
     {
@@ -41,9 +41,14 @@ const pros = [
       url: "https://rebrndmusic.com/",
       description: "Rebrnd Music Production",
       img: rebrnd,
-    }
-  
-
+    },
+    {
+      id: Math.random(),
+      title: "Women's Production Society",
+      url: "https://womensproductionsociety.org",
+      description: "Women's Production Society",
+      img: productionSociety,
+    },
   ];
   
   export default pros
