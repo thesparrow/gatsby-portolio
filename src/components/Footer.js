@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../images/light-logo.svg"
+import logo from "../images/white-logoScript.svg"
 import styles from "../css/footer.module.css"
 import icons from "../constants/SocialLinks"
 const Footer = () => {

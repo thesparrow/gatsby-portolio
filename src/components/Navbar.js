@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import logo from "../images/dark-logo.svg"
+import logo from "../images/dark-logoScript.svg"
 import styles from "../css/navbar.module.css"
 import links from "../constants/Links"
 import icons from "../constants/SocialLinks"
