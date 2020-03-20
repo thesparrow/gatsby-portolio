@@ -1,8 +1,8 @@
 .portfolio {
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
-.grid-container {
+.portfolio .gridContainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding-top: 0;
@@ -15,7 +15,6 @@
   border-style: solid;
   border-color:  var(--mainGrey);
   height: 20vh;
-
   width: 100%;
 }
 .portfolio img:hover {
@@ -34,15 +33,7 @@
 
 }
 
-.imgRounded {
-  border-style: solid;
-  border-color:var(--mainGrey);
-  height: 20vh;
-  margin: 15px 0px;
-  width: 100%;
-}
-
-.portfolio h4 {
+.portfolio h3 {
   font-size: var(--fontSizeHeader);
   letter-spacing: var(--smallSpacing);
   line-height: 1.5em;
@@ -69,8 +60,8 @@
   }
 
   .portfolio .gridContainer{
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: .1rem;
+    padding-right: .1rem;
   }
 
   .portfolio img {

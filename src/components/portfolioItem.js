@@ -7,8 +7,8 @@ const PortfolioItem = ({ data }) => {
          <div className={styles.gridContainer}>
 
             <div class="location-image"> 
-               <h3>{data.title}</h3>
-            <a href={data.url}>
+               <h4>{data.title}</h4>
+            <a href={data.url} target="_blank">
                <img
                width="300"
                height="169"
