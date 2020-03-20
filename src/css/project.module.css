@@ -1,9 +1,40 @@
-.portfolio{
-  padding-top: 90px;
-  padding-bottom: 60px;
+.portfolio {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding-top: 0;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  grid-gap: 1em;
 }
 
-.portfolio .imgRounded {
+.portfolio img {
+  border-style: solid;
+  border-color:  var(--mainGrey);
+  height: 20vh;
+
+  width: 100%;
+}
+.portfolio img:hover {
+  -webkit-transform: scale(1.20);
+  -moz-transform: scale(1.20);
+  -ms-transform: scale(1.20);
+  -o-transform: scale(1.20);
+  transform: scale(1.20);
+  box-shadow:  0px 10px 25px rgba(0, 0, 0, 0.2);
+  opacity:0.7;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+
+}
+
+.imgRounded {
   border-style: solid;
   border-color:var(--mainGrey);
   height: 20vh;
@@ -11,21 +42,7 @@
   width: 100%;
 }
 
-.imgRounded:hover {
-  -webkit-transform: scale(1.20);
-  -moz-transform: scale(1.20);
-  -ms-transform: scale(1.20);
-  -o-transform: scale(1.20);
-  transform: scale(1.20);
-  box-shadow: var(--boxShadow);
-  opacity:0.7;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-.portfolio h3 {
+.portfolio h4 {
   font-size: var(--fontSizeHeader);
   letter-spacing: var(--smallSpacing);
   line-height: 1.5em;
@@ -40,11 +57,24 @@
   font-size: .8em;
   line-height: 1.5em;
   margin: 0;
+  padding-top: 1rem;
+  letter-spacing:  var(--smallSpacing);
 }
 
 
 @media screen and (max-width: 500px) {
-  .portfolio .imgRounded {
+  .portfolio {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .portfolio .gridContainer{
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .portfolio img {
+    padding-left: 0;
     height: auto;
   }
   

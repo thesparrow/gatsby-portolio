@@ -6,6 +6,7 @@ import links from "../constants/Links"
 import icons from "../constants/SocialLinks"
 import { FaAlignRight } from "react-icons/fa"
 import { AppContext } from "../context"
+
 const Navbar = () => {
   const { size, handleOpenSidebar, height } = React.useContext(AppContext)
 
