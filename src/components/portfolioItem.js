@@ -6,25 +6,18 @@ const PortfolioItem = ({ data }) => {
       <div className={styles.portfolio}>
          <div className={styles.gridContainer}>
 
-            <div class="location-image"> 
+            <div class="location-image">
                <h4>{data.title}</h4>
-            <a href={data.url} target="_blank">
-               <img
-               width="300"
-               height="169"
-               src={data.img}
-               alt={data.title}
-               />
-               
-            </a>
-               
+               <a href={data.url} target="_blank">
+                  <img
+                     src={data.img}
+                     alt={data.title}
+                  />
+               </a>
                <p>{data.description} </p>
-            </div>        
-         
+            </div>
          </div>
-         
       </div>
-      
    )
 }
 

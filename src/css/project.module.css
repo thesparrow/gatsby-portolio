@@ -16,6 +16,8 @@
   border-color:  var(--mainGrey);
   height: 20vh;
   width: 100%;
+  width: 300;
+  height:169;
 }
 .portfolio img:hover {
   -webkit-transform: scale(1.20);
@@ -29,8 +31,6 @@
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-
-
 }
 
 .portfolio h3 {
@@ -52,7 +52,11 @@
   letter-spacing:  var(--smallSpacing);
 }
 
-
+/*
+---------------------------
+    MOBILE VIEW 
+---------------------------
+*/
 @media screen and (max-width: 500px) {
   .portfolio {
     padding-top: 1rem;
