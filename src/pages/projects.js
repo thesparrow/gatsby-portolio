@@ -1,19 +1,27 @@
 import React from "react"
 import Layout from "../components/layout"
-import styles from '../css/project.module.css'
 
 import data from "../constants/Projects"
+
+import style from '../css/project.module.css'
 import PortfolioItem from "../components/portfolioItem"
-import Title from "../components/Title"
+
+
+import "../components/css/bootstrap.min.css";
+
+
+import { Container } from "react-bootstrap"
 
 const projects = () => {
 
   return (
 
     <Layout>
-      <section className={styles.portfolio}>
-        <Title title="projects"></Title>
-        <div className={styles.gridContainer}>
+      <Container className={style['spacingTop']}>
+        <div className={style['siteDivider']}>
+          <div className={style['line']}></div>
+          <h3> <span>Our Web Based Projects</span></h3>
+        </div>
           {
             data.map(item => {
               return (
@@ -21,9 +29,9 @@ const projects = () => {
               )
             })
           }
-        </div>
-      </section>
+      </Container>      
     </Layout>
+    
   )
 }
 

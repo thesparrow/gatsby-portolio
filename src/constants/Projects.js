@@ -1,12 +1,20 @@
-import taxeasy from "../images/tax.jpg"
-import boltDesign from "../images/boltDesign.jpg"
-import energy from "../images/energy.jpg"
+import aduDesigns from "../images/ADU-Designs-responsive-web.jpg"
+import taxeasy from "../images/TaxEasy-responsive-web.jpg"
+import boltDesign from "../images/BoltDesignStudios-responsive-web.jpg"
+import energy from "../images/EnergyConsult-responsive-web.jpg"
 import adme from "../images/adme.jpg"
-import rebrnd from "../images/rebrnd.jpg"
-import productionSociety from "../images/productionSociety.jpg"
+import rebrnd from "../images/REBRND-responsive-web.jpg"
+import productionSociety from "../images/WP-responsive-web.jpg"
 
 const pros = [
-    {
+  {
+    id: Math.random(),
+    title: "ADU Designs",
+    url: "//adu-designs.com",
+    description: "Landing and information for ADU designers in San Jose and Silicone Valley. Goal is too educate public about the benefits of building an ADU - and using the local designer to complete their work.",
+    img: aduDesigns,
+  }
+    ,{
       id: Math.random(),
       title: "Tax Easy",
       url: "https://taxeasy.us",
@@ -27,13 +35,13 @@ const pros = [
       description: "Title 24 reports for commercial and residential projects. Online service and consultation for the creation of Title 24 Energy Certificates in all of California.",
       img: energy,
     },
-    {
+    /*{
       id: Math.random(),
       title: "AdMe.ai",
       url: "https://adme.ai/",
       description: "Innovative brand detection solution.",
       img: adme,
-    },
+    },*/
     {
       id: Math.random(),
       title: "Rebrnd Music",
