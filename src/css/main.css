@@ -108,3 +108,21 @@ a {
   align-items: center;
   background-color: rgba(34, 34, 34, 0.6);
 }
+
+.siteDivider {
+  margin: 0 8%;
+  width: 84%;
+  position: relative;
+  clear: both;
+  text-align: center;
+}
+
+.line {
+  background-color: #000;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  margin-top: 1px;
+  width: 100%;
+}
+
