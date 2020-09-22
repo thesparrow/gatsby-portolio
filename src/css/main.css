@@ -26,32 +26,31 @@
 body {
   font-family: "Catamaran", sans-serif;
   color: var(--mainBlack);
-  background: var(--mainGrey);
+  background: var(--f7f7f7);
   line-height: 1.4;
   font-size: 1rem;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1, h2, h3, h4, h5, h6 {
   font-family: "Catamaran", sans-serif;
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }
+
 p {
   margin-bottom: 1.25rem;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
-  text-decoration: none;
-  color: var(--mainBlack);
+  text-decoration: none !important;
+  color: var(--mainBlack) !important;
 }
-.btn-white,
-.btn-primary {
+
+.btn-white, .btn-primary {
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
@@ -62,15 +61,18 @@ a {
   cursor: pointer;
   font-size: 0.8rem;
 }
+
 .btn-white:hover {
   background: var(--mainWhite);
   color: var(--primaryColor);
 }
+
 .btn-primary {
   background: var(--primaryColor);
   color: var(--mainWhite);
   border: 2px solid var(--primaryColor);
 }
+
 .btn-primary:hover {
   background: transparent;
   color: var(--primaryColor);
@@ -79,12 +81,15 @@ a {
 .youtube-icon {
   color: #c4302b;
 }
+
 .twitter-icon {
   color: #1dcaff;
 }
+
 .linkedin-icon {
   color: var(--secondaryBlue);
 }
+
 .codepen-icon {
   color: yellow;
 }
@@ -92,6 +97,7 @@ a {
 .github-icon {
   color: var(--darkGrey);
 }
+
 .background {
   min-height: calc(100vh - 5rem);
   background-position: center;

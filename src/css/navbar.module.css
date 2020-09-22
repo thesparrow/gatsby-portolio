@@ -72,7 +72,7 @@
   transition: var(--mainTransition);
 }
 .navLink:hover {
-  color: var(--primaryColor);
+  color: var(--primaryColor) !important;
 }
 .icons {
   display: flex;

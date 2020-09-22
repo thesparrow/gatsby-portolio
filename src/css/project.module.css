@@ -1,3 +1,7 @@
+.background {
+  color: #fff !important;
+}
+
 .siteDivider {
   margin: 0 8%;
   width: 84%;
@@ -41,15 +45,32 @@ h3 span {
 .projectDescription {
   color: #696969;
   margin-top: 1.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .btn {
+  margin-top: 50px;
   padding: 0.75rem 1.875rem;
   border-radius: 1.875rem;
   -webkit-border-radius: 1.875rem;
   -moz-border-radius: 1.875rem;
   -ms-border-radius: 1.875rem;
   -o-border-radius: 1.875rem;
+  background-image: linear-gradient(to right, #1dcaff, #2892d7);
+  color: #fff;
+  border-color: var(--primaryColor);
+}
+
+a.btn {
+  color: #fff !important;
+}
+
+a.btn:hover, a.btn:focus {
+  color: #2892d7 !important;
+  background-image: none;
+  background: #fff;
+  border: #2892d7;
+  border: 0.05rem solid #2892d7;
 }
 
 .btn-outline-primary {

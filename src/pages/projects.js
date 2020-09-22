@@ -3,14 +3,12 @@ import Layout from "../components/layout"
 
 import data from "../constants/Projects"
 
-import style from '../css/project.module.css'
+
 import PortfolioItem from "../components/portfolioItem"
 
 
-import "../components/css/bootstrap.min.css";
-
-
 import { Container } from "react-bootstrap"
+import style from '../css/project.module.css'
 
 const projects = () => {
 
