@@ -27,30 +27,30 @@ const contact = () => {
                 </p>
                 <Form.Group as={Row}>
                   <Col lg="12">
-                    <Form.Control type="name" placeholder="Your Name*" />
+                    <Form.Control type="name" name="name" placeholder="Your Name*" />
                   </Col>
                 </Form.Group>
                 <Form.Group as={Row}>
                   <Col lg="12">
-                    <Form.Control type="email" placeholder="Your Email*" />  
-                  </Col>
-                </Form.Group>
-
-                <Form.Group as={Row}>
-                  <Col lg="12">
-                    <Form.Control type="phone" placeholder="Your Phone*" />
+                    <Form.Control type="email" name="email" placeholder="Your Email*" />  
                   </Col>
                 </Form.Group>
 
                 <Form.Group as={Row}>
                   <Col lg="12">
-                    <Form.Control type="text" placeholder="Your Business Type*" />
+                    <Form.Control type="phone" name="phone" placeholder="Your Phone*" />
                   </Col>
                 </Form.Group>
 
                 <Form.Group as={Row}>
                   <Col lg="12">
-                    <Form.Control as="textarea" rows="5" placeholder="How can we help?*" />
+                    <Form.Control type="text" name="business" placeholder="Your Business Type*" />
+                  </Col>
+                </Form.Group>
+
+                <Form.Group as={Row}>
+                  <Col lg="12">
+                    <Form.Control as="textarea" name="message" rows="5" placeholder="How can we help?*" />
                   </Col>
                 </Form.Group>
 
