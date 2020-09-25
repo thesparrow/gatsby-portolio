@@ -67,7 +67,7 @@ const contact = () => {
             
             <Col lg="6" xs="12" className={styles.help}>
               <h5> How can we help?</h5>
-              <ul className="col-lg-6 offset-3">
+              <ul className="col-lg-6 offset-lg-3">
                 <li>Send us a message</li>
                 <li>Start a conversation</li>
                 <li>Get Inspired</li>

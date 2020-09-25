@@ -3,15 +3,16 @@ import style from '../css/project.module.css';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 const PortfolioItem = ({ data }) => {
    return (   
 
       <Row className={style['sectionRow']}>
          <Col lg="8" className={style['projectImg']} >
-            <img src={data.img} />
+            <Image src={data.img} fluid />
          </Col>
-         <Col lg="4" xs="12">
+         <Col className={style['project']} lg="4" xs="12">
             <div className={style['projectTitle']}>
                {data.title}
             </div>
@@ -22,6 +23,7 @@ const PortfolioItem = ({ data }) => {
                Visit site
                </a>
          </Col>
+         <hr className="hr-bold my-2" />
          <div className={style['siteDivider']}>
             <div className={style['line']}></div>
          </div>
