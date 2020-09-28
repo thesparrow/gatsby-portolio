@@ -17,7 +17,7 @@ const projects = () => {
     <Layout>
       <Container className={style['spacingTop']}>
         <div className={style['siteDivider']}>
-          <div className={style['line']}></div>
+          <div className={[style.line, style.topLine].join(' ')}></div>
           <h3> <span>Our Web Based Projects</span></h3>
         </div>
           {
