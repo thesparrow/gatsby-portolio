@@ -3,7 +3,7 @@ module.exports = {
     title: `Anna Shilova web developer`,
     description: `Anna Shilova Professional web developer located in Los Angeles, California`,
     author: `Anna Shilova`,
-    keywords: 'web developer, SEO specialist'
+    keywords: 'web developer, SEO specialist',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
