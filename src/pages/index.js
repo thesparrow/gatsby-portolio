@@ -7,6 +7,7 @@ const IndexPage = () => (
     <SEO title="Anna Shilova Professional Web Developer" description="Anna Shilova Professional web developer located in Los 
                 Angeles, California"
                 keywords="Anna Shilova professional web developer, UX/UI developer, wordpress developer"/>
+    
       
     <HomeBanner></HomeBanner>
   </Layout>
