@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Anna Shilova`,
-    description: `Professional developer site portfolio built with ReactJs.`,
+    title: `Anna Shilova web developer`,
+    description: `Anna Shilova Professional web developer located in Los Angeles, California`,
     author: `Anna Shilova`,
   },
   plugins: [

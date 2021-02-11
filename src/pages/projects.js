@@ -1,19 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-
 import data from "../constants/Projects"
-
-
 import PortfolioItem from "../components/portfolioItem"
-
-
 import { Container } from "react-bootstrap"
 import style from '../css/project.module.css'
 
 const projects = () => {
-
   return (
-
     <Layout>
       <Container className={style['spacingTop']}>
         <div className={style['siteDivider']}>
