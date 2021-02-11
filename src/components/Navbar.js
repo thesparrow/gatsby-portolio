@@ -23,7 +23,7 @@ const Navbar = () => {
         {/* These are social links */}
         <div className={styles.center}>
           <Link to="/">
-            <img src={logo} alt="anna shilova logo"></img>
+            <img src={logo} alt="anna shilova web developer los angeles"></img>
           </Link>
           <ul className={styles.links}>
             {links.map(link => {
