@@ -22,7 +22,7 @@
 }
 .link {
   display: inline-block;
-  color: var(--primaryColor);
+  color: #2892d7;
   margin-left: 0.2rem;
   transition: var(--mainTransition);
   text-decoration: underline;

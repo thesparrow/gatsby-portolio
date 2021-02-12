@@ -46,8 +46,15 @@ ul {
 }
 
 a {
-  text-decoration: none !important;
-  color: var(--mainBlack) !important;
+  text-decoration: none;
+  color: var(--mainBlack);
+}
+
+a:hover, a:focus {
+  border: 1px solid var(--mainBlack);
+  display: block; 
+  text-decoration: none;
+  padding: .05em; 
 }
 
 .btn-white, .btn-primary {
